@@ -1,0 +1,32 @@
+tmp/
+temp.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.DS_Store
+test.ipynb
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+# Models and outputs
+data/models/*
+!data/models/.gitkeep
+outputs/*
+!outputs/.gitkeep
